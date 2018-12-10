@@ -1,0 +1,148 @@
+.el-button--mini, .el-button--small {
+  border-radius: 4px;
+}
+.el-input__inner {
+  border-radius: 2px
+}
+
+.el-table {
+  .table-head {
+    background-color: #FAFAFA;
+    color: #000;
+    height: 60px;
+    font-size:14px;
+  }
+  .table-cell {
+    padding: 20px 0;
+    font-size:14px;
+  }
+  .table-row {
+    &:nth-child(even) {
+      background-color: #FBFCFE;
+    }
+  }
+}
+
+.el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li {
+  background-color: #fff;
+  border: 1px solid #979797;
+  border-radius: 6px;
+}
+.detail-form {
+  .el-form-item {
+    margin: 10px 0;
+  }
+  .el-form-item__label {
+    color: #999;
+  }
+}
+.detail-textarea {
+  .el-textarea__inner {
+    border-radius: 2px;
+  }
+}
+// 弹窗样式
+.detail-dialog{
+  .el-dialog__header{
+    padding: 30px 50px;
+    .el-dialog__title{
+      font-size: 16px;
+      color: #333333;
+    }
+    .el-dialog__headerbtn{
+      font-size: 30px;
+      right: 50px;
+      .el-dialog__close{
+        color: #333333;
+      }
+    }
+  }
+  .el-dialog__body{
+    padding: 0 50px;
+  }
+}
+.el-dropdown-menu {
+  border-radius: 2px;
+}
+// 弹窗样式
+.message-box-class {
+  .el-message-box__content {
+    color: #000;
+    font-size: 16px;
+  }
+  .el-message-box__status {
+    top: 35%;
+  }
+  .el-message-box__btns {
+    margin-top: 56px;
+    text-align: center;
+    margin-bottom: 12px;
+    .message-cancel-button {
+      width: 65px;
+      background-color: #2159D6;
+      float: right;
+      color: #fff;
+      margin-right: 40px;
+    }
+    .message-confirm-button {
+      width: 65px;
+      border: 1px solid #D9D9D9;
+      background-color: #fff;
+      float: left;
+      margin-left: 40px;
+      color: rgba(0,0,0,0.65);
+    }
+    // button {
+    //   width: 65px;
+    //   &:nth-child(1) {
+    //     margin-right: 150px;
+    //     float: right;
+    //   }
+    //   &:nth-child(2) {
+    //     float: left;
+    //     margin-left: 30px;
+    //   }
+    // }
+  }
+}
+// 顶部搜索输入框
+.search-item{
+  width: 328px;
+  height: 40px;
+  &.el-input--small .el-input__inner{
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.14);
+    border-radius: 2px;
+    font-size: 16px;
+    
+  }
+
+}
+.el-form-item--small .el-form-item__label{
+  line-height: 40px;
+  font-size: 14px;
+  color: #333333;
+  padding: 0 9px 0 0;
+}
+// 日期选择
+.el-range-editor--small.el-input__inner{
+  height: 40px;
+  font-size: 14px;
+  color: #999999;
+}
+.el-range-editor--small .el-range-separator{
+  line-height: 31px;
+  font-size: 14px;
+}
+// 面包屑
+.el-breadcrumb__inner a, .el-breadcrumb__inner.is-link {
+  color: rgba(0,0,0,0.45);
+}
+.el-breadcrumb__item:last-child .el-breadcrumb__inner {
+  color: #2159D6;
+  &:hover {
+    color: #2159D6;
+  }
+}
